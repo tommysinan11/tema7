@@ -1,0 +1,9 @@
+@font-face {
+  font-family: orienta;
+  src: url("../fonts/orienta_font/orienta-regular-webfont.woff2") format(woff);
+}
+p {
+  font-family: orienta;
+  font-weight: normal;
+  font-size: normal;
+}
