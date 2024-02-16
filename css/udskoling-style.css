@@ -7,3 +7,13 @@ p {
   font-weight: normal;
   font-size: normal;
 }
+@font-face {
+  font-family: spicyrice;
+  src: url("../fonts/webfontkit-spicyrice/spicyrice-regular-webfont.woff2")
+    format(woff);
+}
+@font-face {
+  font-family: jacques;
+  src: url("../fonts/webfontkit-jacques/jacquesfrancois-regular-webfont.woff2")
+    format(woff);
+}
