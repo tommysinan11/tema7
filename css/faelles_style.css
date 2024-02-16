@@ -1,0 +1,32 @@
+/* Fonte */
+@font-face {
+  font-family: orienta;
+  src: url("../fonts/orienta_font/orienta-regular-webfont.woff2") format(woff);
+}
+p {
+  font-family: orienta;
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: spicyrice;
+  src: url("../fonts/webfontkit-spicyrice/spicyrice-regular-webfont.woff2") format(woff);
+}
+h1,
+h2,
+h3 {
+  font-family: spicyrice;
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: jacques;
+  src: url("../fonts/webfontkit-jacques/jacquesfrancois-regular-webfont.woff2") format(woff);
+}
+a {
+  font-family: jacques;
+  font-weight: normal;
+  font-size: normal;
+}
