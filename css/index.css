@@ -2,6 +2,19 @@
   box-sizing: border-box;
   margin-bottom: 1.2rem;
 }
+.forside_knapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.forside_baggrund {
+  background-color: #e2d2ba;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+/***Mobil***/
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 2.2rem;
@@ -23,5 +36,20 @@
   img {
     width: 100%;
     height: auto;
+  }
+
+  .forside_knapper {
+    display: block;
+  }
+}
+
+/*Mac****/
+@media screen and (min-width: 2304px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .forside_mad {
+    margin-left: 15%;
   }
 }
