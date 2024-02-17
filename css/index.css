@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem; /* det er denne der drille med menubaren  - evt slet? */
 }
 .forside_knapper {
   display: grid;
