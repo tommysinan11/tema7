@@ -8,6 +8,11 @@ img {
   height: auto;
   display: block;
 }
+body {
+  /* margin: auto;
+  max-width: 1300px;
+  min-height: 100%; */
+}
 /* margin preset */
 .margin-top {
   margin-top: 30px;
@@ -38,6 +43,30 @@ img {
 body {
   height: 500vh;
 }
+#card-view {
+  max-width: 1300px;
+  margin: auto;
+  background-color: #cddeb3;
+  border-top: solid #cddeb3 100px;
+  border-bottom: solid #cddeb3 100px;
+}
+#card-view h3 {
+  font-size: 3rem;
+  text-align: center;
+  color: #504c22;
+}
+#u-menu-places {
+  max-width: 1300px;
+  background-image: url(https://media.giphy.com/media/4N1FZFE5AGO3qrUGkw/giphy.gif);
+  margin: auto;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .banner-container {
   width: 100%;
   height: 500px;
