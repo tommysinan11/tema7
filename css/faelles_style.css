@@ -9,6 +9,12 @@ p {
   font-size: normal;
 }
 
+li {
+  font-family: orienta;
+  font-weight: normal;
+  font-size: normal;
+}
+
 @font-face {
   font-family: spicyrice;
   src: url("../fonts/webfontkit-spicyrice/spicyrice-regular-webfont.woff2") format(woff);
