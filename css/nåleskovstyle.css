@@ -1,0 +1,48 @@
+.topholder1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10%;
+    font-size: 30px;
+    padding: 40px;
+    
+}
+.astyle{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.astyle:hover{
+    color: yellow;
+}
+.topholder2{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: -12%;
+    
+}
+.topholder{
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #CDDEB3;
+}
+.imgstyle{
+    width: 100%;
+}
+.text1{
+    font-size: 30px;
+    padding: 40px;
+    margin: 0;
+}
+.text{
+    font-size: 40px;
+    padding: 40px;
+    margin: 0;
+}
+
+  
+  
+
