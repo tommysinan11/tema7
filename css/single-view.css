@@ -19,9 +19,122 @@ main {
   margin: auto;
 }
 
-#apple_pb {
-  max-width: 300px;
+/* Wild apple intro */
+#sv_apple_pb {
+  width: 300px;
   height: 300px;
   border-radius: 10%;
-  filter: drop-shadow(3px 4px 5px #9e9387);
+  box-shadow: 5px 5px 5px #877e72;
+}
+
+.sv_apple_intro h1 {
+  color: white;
+  text-align: center;
+  max-width: 400px;
+  margin: 30px;
+}
+
+.sv_apple_intro p {
+  color: #637028;
+  max-width: 400px;
+  margin: 30px;
+  text-align: center;
+}
+
+.sv_apple_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+/* bokse over billede */
+.sv_lilleboks_container {
+  background-image: url(/img/sv-apple-big.webp);
+  min-height: 400px;
+  background-position: 50px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px;
+}
+
+.sv_recog {
+  background-color: #b33636;
+  width: 400px;
+  height: 330px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.sv_recog h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+.sv_recog ol {
+  color: #e1d5c5;
+  font-size: 20px;
+  padding-left: 7px;
+}
+
+.sv_recog li {
+  padding: 5px;
+}
+
+.sv_wherewhen {
+  background-color: #f8fedc7c;
+  border: 2px solid white;
+  width: 400px;
+  height: 330px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #26281c;
+}
+
+.sv_wherewhen p {
+  margin: auto;
+  padding: 10px;
+}
+
+@media (min-width: 900px) {
+  /* Wild apple intro */
+  .sv_apple_intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+
+  .sv_introtekst {
+    grid-column: 2/3;
+    text-align: center;
+  }
+
+  .sv_introtekst h1 {
+    font-size: 50px;
+  }
+
+  #sv_apple_pb {
+    margin: 30px;
+    grid-column: 1/2;
+    margin-left: 120px;
+    width: 400px;
+    height: auto;
+  }
+
+  /* bokse over billede */
+  .sv_lilleboks_container {
+    display: flex;
+  }
 }

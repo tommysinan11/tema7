@@ -10,11 +10,34 @@
     <link rel="stylesheet" href="fonts/orienta_font/stylesheet.css">
     <link rel="stylesheet" href="css/udskoling-style.css">
     <link rel="stylesheet" href="css/faelles_style.css">
+    <link rel="stylesheet" href="css/menu.css">
 
 </head>
 
 <body>
-    <header></header>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="img/logo.webp" width="141" height="200" alt="logo">
+            </div>
+            <ul class="nav-menu">
+
+                <li class="nav-item"> <a href="index.html">Grade</a></li>
+                <li class="nav-item"> <a href="udskoling.html" class="active_link">Environments </a></li>
+                <li class="nav-item"> <a href="#">Recipies</a></li>
+                <li class="nav-item"> <a href="assignment.html">Assignments</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+
     <main>
         <div class="banner-container">
             <div class="banner-text">
@@ -27,11 +50,46 @@
                 <p class="banner-text-small margin-bottom">To collect several things, often from different places:</p>
             </div>
         </div>
+        <section id="card-view">
+            <h3>What to gather in february:</h3>
+            <div class="u-card-container"></div>
+        </section>
+        <section>
+            <div id="u-menu-places">
+                <p>choose your invironment</p>
+                <div class=" flex-row flex-align-center">
+                    <div id="u-button-container" class="flex-row">
+                        <a href="">
+                            <div class="button-e">
+                                <p>1</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="button-e">
+                                <p>2</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="button-e">
+                                <p>3</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="button-e">
+                                <p>4</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
+        </section>
     </main>
     <footer></footer>
-</body>
 
-<!-- <script src="java.js"></script> -->
+
+    <script src="js/menu.js"></script>
+    <script src="js/udskoling-js.js"></script>
+</body>
 
 </html>
