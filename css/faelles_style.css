@@ -27,6 +27,10 @@ h3 {
   font-size: normal;
 }
 
+.sv_button a {
+  font-family: spicyrice;
+}
+
 @font-face {
   font-family: jacques;
   src: url("../fonts/webfontkit-jacques/jacquesfrancois-regular-webfont.woff2") format(woff);

@@ -10,11 +10,15 @@ img {
   display: block;
 }
 
+body {
+  background-color: #e1d5c5;
+}
+
 /* Fonte */
 
 main {
   background-color: #e1d5c5;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   min-height: 800px;
   margin: auto;
 }
@@ -47,7 +51,9 @@ main {
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  max-width: 1200px;
 }
 
 /* bokse over billede */
@@ -96,15 +102,117 @@ main {
   margin: auto;
   padding: 40px;
   padding-top: 10px;
+  margin-top: 30px;
   border-radius: 20px;
   font-size: 20px;
-  margin-top: 30px;
   color: #26281c;
 }
 
 .sv_wherewhen p {
   margin: auto;
   padding: 10px;
+}
+
+/* stor infoboks */
+.sv_storinfoboks {
+  margin: auto;
+  max-width: 500px;
+  background-color: #4c4238;
+  color: #ffffeb;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #877e72;
+}
+
+.sv_storinfoboks h2 {
+  padding-top: 50px;
+}
+
+.sv_storinfoboks p {
+  padding-top: 12px;
+}
+
+/* Mad banner */
+.mad_banner {
+  background-image: url(/img/sv-mad.webp);
+  min-height: 400px;
+  background-position: 50px;
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+}
+
+.mad_banner h1 {
+  color: #ffffeb;
+  padding-top: 100px;
+}
+
+.mad_banner h2 {
+  color: #cddeb3;
+}
+
+/* opskrift kort */
+.opskrifter {
+  display: block;
+  text-align: center;
+}
+
+.recipecard {
+  background-color: #b33636;
+  max-width: 350px;
+  height: 400px;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-radius: 30px;
+  color: #ffffeb;
+  box-shadow: 5px 5px 5px #877e72;
+}
+
+.recipecard img {
+  max-width: 280px;
+  margin: auto;
+  padding: 10px;
+}
+
+.recipecard a {
+  color: #ffffeb;
+  text-decoration: none;
+}
+
+.recipecard p {
+  padding-top: 10px;
+}
+
+.recipecard:hover {
+  box-shadow: none;
+  border: 2px solid white;
+}
+
+.sv_button {
+  margin: auto;
+  background-color: #ffffeb;
+  width: 180px;
+  height: 80px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #877e72;
+}
+
+.sv_button a {
+  color: #b33636;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.sv_button:hover {
+  background-color: #f8a01f;
+  color: #ffffeb;
 }
 
 @media (min-width: 900px) {
@@ -133,8 +241,21 @@ main {
     height: auto;
   }
 
+  .sv_wherewhen {
+    margin-top: 0px;
+    margin-left: -40px;
+  }
+
   /* bokse over billede */
   .sv_lilleboks_container {
     display: flex;
+  }
+
+  /*mad banner */
+
+  /* opskrift kort */
+  .opskrifter {
+    display: flex;
+    max-width: 800px;
   }
 }
