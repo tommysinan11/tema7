@@ -60,7 +60,6 @@ main {
 .sv_lilleboks_container {
   background-image: url(/img/sv-apple-big.webp);
   min-height: 400px;
-  background-position: 50px;
   background-size: cover;
   background-attachment: fixed;
   padding: 30px;

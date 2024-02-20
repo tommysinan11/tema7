@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* introboks */
+
+/*tekst over form */
+.as_formtekst {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 2px solid #637028; /* Gray border */
+  background-color: #ffffeb;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: orienta;
+  color: #f8a01f;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #ffffeb;
+  color: #637028;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: spicyrice;
+  box-shadow: 3px 3px 3px #877e72;
+}
+
+/* style photo button */
+input[type="photo"] {
+  background-color: #ffffeb;
+  color: #637028;
+  padding: 12px 20px;
+  border: 2px solid #637028;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: jacques;
+}
+
+/* When moving the mouse over the submit og photo button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #f8a01f;
+  color: #ffffeb;
+}
+
+input[type="submitq"]:hover {
+  background-color: #f8a01f;
+  color: #ffffeb;
+}
+
+input[type="submitq"] {
+  background-color: #ffffeb;
+  color: #637028;
+  padding: 18px 20px;
+  text-align: center;
+  border: none;
+  margin-top: 30px;
+
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: spicyrice;
+  font-size: 20px;
+  box-shadow: 3px 3px 3px #877e72;
+}
+
+/* Add a background color and some padding around the form */
+.as_container {
+  border-radius: 5px;
+  background-color: #e1d5c5;
+  padding: 30px;
+  width: 500px;
+  margin: auto;
+  font-family: orienta;
+  color: #637028;
+  margin-top: 40px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #877e72;
+}
+
+@media (min-width: 900px) {
+  .as_container {
+    width: 900px;
+  }
+
+  .as_knapper {
+    width: 500px;
+  }
+}
