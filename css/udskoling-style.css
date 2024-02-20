@@ -53,6 +53,7 @@ body {
   text-align: center;
   color: #504c22;
 }
+
 #u-menu-places {
   max-width: 1300px;
   background-image: url(https://media.giphy.com/media/4N1FZFE5AGO3qrUGkw/giphy.gif);
@@ -64,19 +65,53 @@ body {
   background-position: center;
   background-size: cover;
 }
+/* styling af enkelte knapper */
+a {
+  text-decoration: none;
+}
+#near-water {
+  background-color: #6dc5e5;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+#open-grass {
+  background-color: #859253;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+#Forest {
+  background-color: #504c22;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+#city {
+  background-color: #af3817;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.big-text {
+  font-size: 3.2rem;
+  margin-top: 50px;
+  padding-top: 50px;
+  letter-spacing: 2px;
+}
+
 #u-button-container {
   background-color: #fffee8b8;
   color: #fffee8b8;
   border: 20px;
   padding: 50px;
   border-radius: 10px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 0px;
 }
 .button-e {
-  background-color: #cddeb3;
   padding: 60px;
-  border: solid #cddeb3 20px;
+  border: 20px;
   border-radius: 100%;
   margin: 30px;
   height: 200px;
@@ -97,6 +132,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* .u-fold-out {
+  position: absolute;
+} */
 .hide {
   display: none;
 }
@@ -105,8 +143,26 @@ body {
   flex-direction: row;
   align-self: flex-end;
   height: 150px;
-  width: 100px;
+  width: 150px;
 }
+#confiderous .button-e {
+  background-color: #859253;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1rem;
+}
+#deciduous .button-e {
+  background-color: #f8a01f;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1rem;
+}
+/* .fold-out-class {
+  position: absolute;
+
+  height: 150px;
+  width: 100px;
+} */
 .banner-container {
   width: 100%;
   height: 500px;
@@ -139,7 +195,7 @@ div .banner-text-small {
   .button-e {
     background-color: #cddeb3;
     padding: 50px;
-    border: solid #cddeb3 20px;
+    border: 20px;
     border-radius: 100%;
     margin: 30px;
     height: 150px;
@@ -151,7 +207,7 @@ div .banner-text-small {
     border: 10px;
     padding: 0px;
     border-radius: 10px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 0px;
   }
 }

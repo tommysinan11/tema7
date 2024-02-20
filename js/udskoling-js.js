@@ -1,8 +1,10 @@
+window.addEventListener("load", forestFunction);
+
 function forestFunction() {
   console.log("hej");
-  document.querySelector("#Forest").addEventListener("click", forestCategories);
   document.querySelector("#confiderous").classList.add("hide");
   document.querySelector("#deciduous").classList.add("hide");
+  document.querySelector("#Forest").addEventListener("click", forestCategories);
 }
 function forestCategories() {
   console.log("hejsa");
