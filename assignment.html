@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/faelles_style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/assignment.css">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
 
                 <li class="nav-item"> <a href="index.html">Grade</a></li>
                 <li class="nav-item"> <a href="udskoling.html">Environments </a></li>
-                <li class="nav-item"> <a href="#">Recipies</a></li>
+                <li class="nav-item"> <a href="#">Recipes</a></li>
                 <li class="nav-item"> <a href="assignment.html" class="active_link">Assignments</a></li>
             </ul>
 
@@ -33,7 +34,52 @@
         </nav>
     </header>
 
-    <main></main>
+
+    <main>
+
+
+
+        <div class="as_container">
+
+            <div class="as_formtekst">
+                <h2>Questions about the assignment?</h2>
+                <p> Ask your teacher here </p>
+            </div>
+
+            <form action="action_page.php">
+
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+
+                <label for="grade">Grade</label>
+                <select id="grade" name="grade">
+                    <option value="7.a">7.a</option>
+                    <option value="7.b">7.b</option>
+                    <option value="8.a">8.a</option>
+                    <option value="8.b">8.b</option>
+                    <option value="9.a">9.a</option>
+                    <option value="9.b">9.b</option>
+                </select>
+
+                <label for="subject">Question</label>
+                <textarea id="subject" name="subject" placeholder="Write your question for the teacher..."
+                    style="height:200px"></textarea>
+
+                <div class="as_knapper"><input type="photo" value="Choose Photo">
+
+                    <input type="submit" value="Add Photo">
+
+                    <input id="sub_ques" type="submitq" value="Submit Question">
+                </div>
+
+            </form>
+        </div>
+
+
+
+
+    </main>
 
     <script src="js/menu.js"></script>
 </body>

@@ -60,7 +60,6 @@ main {
 .sv_lilleboks_container {
   background-image: url(/img/sv-apple-big.webp);
   min-height: 400px;
-  background-position: 50px;
   background-size: cover;
   background-attachment: fixed;
   padding: 30px;
@@ -111,6 +110,10 @@ main {
 .sv_wherewhen p {
   margin: auto;
   padding: 10px;
+}
+
+.sv_wherewhen h2 {
+  padding-top: 30px;
 }
 
 /* stor infoboks */
@@ -249,6 +252,30 @@ main {
   /* bokse over billede */
   .sv_lilleboks_container {
     display: flex;
+  }
+
+  /* Stor infoboks */
+  .sv_storinfoboks {
+    margin: auto;
+    min-width: 1000px;
+    background-color: #4c4238;
+    color: #ffffeb;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #877e72;
+    padding-bottom: 80px;
+  }
+
+  .sv_storinfoboks p {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .sv_storinfoboks h2 {
+    margin: auto;
+    text-align: center;
   }
 
   /*mad banner */
