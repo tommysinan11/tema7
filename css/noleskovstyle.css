@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 body{
-    background-color: #CDDEB3;
+    background-color: #859253;
 }
 .topholder1{
     display: flex;
@@ -32,11 +37,17 @@ body{
     margin-top: -12%;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    gap: 1rem;
     
 }
+.topholder2 p{
+    width: 95%;
+    font-size: 14px;
+    margin-left: 20px;
+}
 .topholder{
-   background-color: #CDDEB3;
+   background-color: #859253;
    
 }
 .topholder3
@@ -45,7 +56,7 @@ body{
     top: 650px;;
 }
 .imgholder{
-    background-color: #CDDEB3;
+    background-color: #859253;
 }
 .imgstyle{
     width: 100%;
@@ -53,7 +64,7 @@ body{
 }
 
 .text{
-    background-color: #CDDEB3;
+    background-color: #859253;
     font-size: 24px;
     padding: 20px;
     text-align: center;
@@ -63,57 +74,57 @@ body{
 
 /* menu til mig */
 .celholder{
+    width: 95%;
+    margin-left: 2.5%;
     display: flex;
     align-items: center;
+    flex-direction: row;
     gap: 1rem;
+    justify-content: space-around;
     background-color:#817D7D ;
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 .celholder h2{
     font-size: 16px;
     margin-left:20px ;
 }
-.dropbtn {
-    background-color: bisque;
-    color: black;
-    padding: 5px 25px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: bisque;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: bisque;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
+.cel{
+    display: flex;
+    gap: 1rem;
+    margin-left:20px;
+}
 
+@media screen and (min-width: 800px) {
+    .topholder1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 10%;
+        font-size: 12px;
+        padding: 12px;
+        /* display: none; */
+        
+        
+    }
+    .topholder2{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 1rem;
+        
+    }
+    .imgstyle{
+        width: 20%;
+       
+    }
+}
 
 
 

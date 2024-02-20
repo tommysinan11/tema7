@@ -2,21 +2,21 @@
 
 
 
-// https://hvlgtuztakjwxqrwpwbm.supabase.co/rest/v1/test_product
-fetch("https://hvlgtuztakjwxqrwpwbm.supabase.co/rest/v1/test_product", {
-    method: "GET",
-    headers: {
-        apikey:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh2bGd0dXp0YWtqd3hxcndwd2JtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc4NTY2MTAsImV4cCI6MjAyMzQzMjYxMH0.hg7bA_euEged0Q_cE4NJq-E7zc7XELhRGXjj-RcAK8s"
-  },
+// // https://hvlgtuztakjwxqrwpwbm.supabase.co/rest/v1/test_product
+// fetch("https://hvlgtuztakjwxqrwpwbm.supabase.co/rest/v1/test_product", {
+//     method: "GET",
+//     headers: {
+//         apikey:
+//         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh2bGd0dXp0YWtqd3hxcndwd2JtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc4NTY2MTAsImV4cCI6MjAyMzQzMjYxMH0.hg7bA_euEged0Q_cE4NJq-E7zc7XELhRGXjj-RcAK8s"
+//   },
 
-})
-.then((res) => res.json())
-.then(showdata);
+// })
+// .then((res) => res.json())
+// .then(showdata);
 
-function showdata(items){
-    console.log(items);
-}
+// function showdata(items){
+//     console.log(items);
+// }
 
 
 

@@ -1,8 +1,8 @@
 #warp{
     /* background-color: rgba(76,66,56,0.8); */
-    background-color: #CDDEB3;
+    background-color: #859253;
     margin: 0;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,8 @@
     width: 200px;
     height: 320px;
     text-align: justify;
-    background-color: white;
+    background-color: #504C22;
+    color: white;
     border-radius: 10px;
     padding: 20px;
     transition: 0.5s;

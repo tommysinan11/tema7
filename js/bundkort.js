@@ -27,7 +27,7 @@ function showproduct(product){
     copy.querySelector(".name").textContent=product.name;
     copy.querySelector(".catego").textContent=product.categories;
     copy.querySelector(".season").textContent=product.seasons;
-    copy.querySelector("button").textContent=product.recipe;
+    copy.querySelector(".click").href=product.recipe;
     copy.querySelector(".photo").src = product.photo;
 
     
