@@ -74,24 +74,32 @@ a {
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
 }
 #open-grass {
   background-color: #859253;
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
 }
 #Forest {
   background-color: #504c22;
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
 }
 #city {
   background-color: #af3817;
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
 }
 .big-text {
   font-size: 3.2rem;
@@ -99,7 +107,20 @@ a {
   padding-top: 50px;
   letter-spacing: 2px;
 }
-
+/* styling af hover på de enkelte knapper */
+#near-water:hover,
+#open-grass:hover,
+#city:hover {
+  scale: 99%;
+  transition: 1s;
+  color: rgb(221, 223, 208);
+  background-color: gray;
+}
+#Forest:hover {
+  scale: 110%;
+  transition: 1s;
+  color: rgb(224, 249, 81);
+}
 #u-button-container {
   background-color: #fffee8b8;
   color: #fffee8b8;
@@ -176,7 +197,7 @@ a {
   align-items: center;
 }
 .banner-text p {
-  font-family: orienta;
+  font-family: jacques;
   text-align: center;
   font-size: 3rem;
 }
