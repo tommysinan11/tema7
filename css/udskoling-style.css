@@ -58,6 +58,7 @@ body {
   background-image: url(https://media.giphy.com/media/4N1FZFE5AGO3qrUGkw/giphy.gif);
   margin: auto;
   width: 100%;
+  height: 800px;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -67,25 +68,38 @@ body {
   background-color: #fffee8b8;
   color: #fffee8b8;
   border: 20px;
-  padding: 70px;
+  padding: 50px;
   border-radius: 10px;
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 0px;
 }
 .button-e {
   background-color: #cddeb3;
-  padding: 70px;
+  padding: 60px;
   border: solid #cddeb3 20px;
   border-radius: 100%;
   margin: 30px;
+  height: 200px;
+  width: 200px;
 }
+/* .u-fold-out {
+  display: flex;
+  flex-direction: row;
+
+  z-index: 100;
+
+  position: relative;
+  left: 33%;
+} */
 .u-fold-out {
   display: flex;
   flex-direction: row;
-  margin: none;
-  padding: none;
+  align-items: center;
+  justify-content: center;
 }
-
+.hide {
+  display: none;
+}
 .fold-out-class {
   display: flex;
   flex-direction: row;
@@ -106,10 +120,38 @@ body {
   align-items: center;
 }
 .banner-text p {
-  font-family: jacques;
+  font-family: orienta;
   text-align: center;
   font-size: 3rem;
 }
 div .banner-text-small {
   font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  /* environment button responsive design */
+  .querry-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+  }
+  .button-e {
+    background-color: #cddeb3;
+    padding: 50px;
+    border: solid #cddeb3 20px;
+    border-radius: 100%;
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+  }
+  #u-button-container {
+    background-color: #fffee8b8;
+    color: #fffee8b8;
+    border: 10px;
+    padding: 0px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
 }

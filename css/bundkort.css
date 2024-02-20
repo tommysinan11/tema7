@@ -1,0 +1,11 @@
+.sporduct{
+    width: 100%;
+    
+    background-color: bisque;
+    border: none;
+    padding: 20;
+}
+.photo{
+    width: 95%;
+    margin-left:2.5% ;
+}
