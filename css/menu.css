@@ -26,7 +26,7 @@ header a {
 }
 
 .nav-link:hover {
-  background-color: #f8a01f;
+  background-color: #f4ebde;
 }
 .hamburger {
   display: none;
@@ -47,6 +47,10 @@ header a {
 .logo img {
   width: 200px;
   padding-top: 1rem;
+}
+
+.logo :hover {
+  background-color: #f4f4f400;
 }
 
 @media (min-width: 1000px) {
