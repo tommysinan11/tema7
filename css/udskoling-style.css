@@ -9,9 +9,7 @@ img {
   display: block;
 }
 body {
-  /* margin: auto;
-  max-width: 1300px;
-  min-height: 100%; */
+  background-color: #cddeb3;
 }
 /* margin preset */
 .margin-top {
@@ -55,36 +53,120 @@ body {
   text-align: center;
   color: #504c22;
 }
+
 #u-menu-places {
   max-width: 1300px;
   background-image: url(https://media.giphy.com/media/4N1FZFE5AGO3qrUGkw/giphy.gif);
   margin: auto;
   width: 100%;
+  height: 800px;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+/* styling af enkelte knapper */
+a {
+  text-decoration: none;
+}
+#near-water {
+  background-color: #6dc5e5;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+#open-grass {
+  background-color: #859253;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+#Forest {
+  background-color: #504c22;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+#city {
+  background-color: #af3817;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.big-text {
+  font-size: 3.2rem;
+  margin-top: 50px;
+  padding-top: 50px;
+  letter-spacing: 2px;
+}
+
 #u-button-container {
   background-color: #fffee8b8;
   color: #fffee8b8;
   border: 20px;
-  padding: 70px;
+  padding: 50px;
   border-radius: 10px;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 .button-e {
-  background-color: #cddeb3;
-  padding: 70px;
-  border: solid #cddeb3 20px;
+  padding: 60px;
+  border: 20px;
   border-radius: 100%;
   margin: 30px;
+  height: 200px;
+  width: 200px;
 }
+/* .u-fold-out {
+  display: flex;
+  flex-direction: row;
+
+  z-index: 100;
+
+  position: relative;
+  left: 33%;
+} */
+.u-fold-out {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/* .u-fold-out {
+  position: absolute;
+} */
+.hide {
+  display: none;
+}
+.fold-out-class {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  height: 150px;
+  width: 150px;
+}
+#confiderous .button-e {
+  background-color: #859253;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1rem;
+}
+#deciduous .button-e {
+  background-color: #f8a01f;
+  color: #fffee8;
+  text-decoration: none;
+  font-size: 1rem;
+}
+/* .fold-out-class {
+  position: absolute;
+
+  height: 150px;
+  width: 100px;
+} */
 .banner-container {
   width: 100%;
   height: 500px;
-  background-image: url(../img/efteraar-cover-1.webp);
+  background-image: url(../img/efteraar-cover-dark.webp);
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
@@ -94,10 +176,38 @@ body {
   align-items: center;
 }
 .banner-text p {
-  font-family: jacques;
+  font-family: orienta;
   text-align: center;
   font-size: 3rem;
 }
 div .banner-text-small {
   font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  /* environment button responsive design */
+  .querry-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+  }
+  .button-e {
+    background-color: #cddeb3;
+    padding: 50px;
+    border: 20px;
+    border-radius: 100%;
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+  }
+  #u-button-container {
+    background-color: #fffee8b8;
+    color: #fffee8b8;
+    border: 10px;
+    padding: 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
 }
