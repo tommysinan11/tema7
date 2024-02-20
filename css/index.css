@@ -1,50 +1,115 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  background-color: #e2d2ba;
+}
+h1 {
+  font-size: 3rem;
+  top: 27%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.forside_knap1 {
+  width: 112%;
+  height: auto;
+  margin-left: -6%;
+}
+.forside_knapper img {
+  width: 50%;
+  margin-left: 25%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 .forside_knapper {
+  display: block;
+  margin-bottom: 9rem;
+}
+
+/***Mac***/
+@media screen and (min-width: 900px) {
+  .forside_knapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .overskrift {
+    font-size: 4.5rem;
+  }
+
+  .forside_baggrund {
+    background-color: #e2d2ba;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
+  .forside_venner {
+    width: 65%;
+    margin-left: 20%;
+  }
+
+  .forside_p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+/************* footer ************/
+
+footer {
+  background-color: #b49c83;
+  padding-top: 2.5rem;
+  margin-top: 4%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.grid_footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  text-align: center;
 }
 
-.forside_baggrund {
-  background-color: #e2d2ba;
-  margin-right: 4%;
-  margin-left: 4%;
+.grid_footer h2 {
+  font-family: orienta;
 }
 
-/***Mobil***/
-@media screen and (max-width: 800px) {
-  h1 {
-    font-size: 2.2rem;
-    top: 27%;
-    margin-bottom: 4%;
-  }
-  h2 {
-    text-align: center;
-  }
-
-  p {
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .forside_knapper img {
-    width: 50%;
-    margin-left: 25%;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  .forside_knapper {
-    display: block;
+@media only screen and (max-width: 900px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
-/*Mac****/
+ul {
+  list-style-type: none;
+  font-family: orienta;
+}
+
+.link_1 {
+  margin-left: -6%;
+}
+
+.link_1,
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: orienta;
+}
