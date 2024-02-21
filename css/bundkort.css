@@ -77,7 +77,7 @@ background: linear-gradient(25deg, rgba(76,66,56,1) 0%, rgba(129,85,42,1) 35%, r
         display: grid;
         grid-template-columns: 2fr 1fr;
         width: 300px;
-        margin-left: 940px;
+        margin-left: 875px;
         gap: 3rem;
         
     }
