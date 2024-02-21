@@ -38,9 +38,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-body {
-  height: 500vh;
-}
+
 #card-view {
   max-width: 1300px;
   margin: auto;
@@ -141,24 +139,9 @@ a {
   margin-bottom: 100px;
   letter-spacing: 2px;
 }
-/* .u-fold-out {
-    display: flex;
-    flex-direction: row;
-  
-    z-index: 100;
-  
-    position: relative;
-    left: 33%;
-  } */
-
-/* .u-fold-out {
-    position: absolute;
-  } */
 .hide {
   transition: 2s;
   display: none;
-}
-.transition {
 }
 
 .scale-down {
@@ -191,12 +174,7 @@ a {
   color: rgb(221, 223, 208);
   background-color: gray;
 }
-/* .fold-out-class {
-    position: absolute;
-  
-    height: 150px;
-    width: 100px;
-  } */
+
 .banner-container {
   width: 100%;
   height: 500px;
@@ -232,7 +210,7 @@ div .banner-text-small {
   display: none;
 }
 @media (max-width: 900px) {
-  /* environment button responsive design */
+  /* environment button responsive grid design */
   .querry-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

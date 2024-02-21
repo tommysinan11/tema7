@@ -15,7 +15,9 @@
 
     <header>
         <nav class="navbar">
-            <div class="logo"><img src="img/logo.webp" width="141" height="200" alt="logo">
+            <div class="logo"> <a href="index.html">
+                    <img src="img/logo.webp" width="141" height="200" alt="logo">
+                </a>
             </div>
             <ul class="nav-menu">
 
@@ -38,50 +40,193 @@
     <main>
 
 
+        <div class="as_intro">
+            <h1>Assignments</h1>
 
-        <div class="as_container">
+            <p> Here you can see what your teacher needs you to gather for your classes.
+                Once you’ve found and identified your findings, you can check them off to let your teacher know.
+                Happy Gathering!</p>
 
-            <div class="as_formtekst">
-                <h2>Questions about the assignment?</h2>
-                <p> Ask your teacher here </p>
-            </div>
-
-            <form action="action_page.php">
-
-                <label for="fname">Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name...">
-
-
-                <label for="grade">Grade</label>
-                <select id="grade" name="grade">
-                    <option value="7.a">7.a</option>
-                    <option value="7.b">7.b</option>
-                    <option value="8.a">8.a</option>
-                    <option value="8.b">8.b</option>
-                    <option value="9.a">9.a</option>
-                    <option value="9.b">9.b</option>
-                </select>
-
-                <label for="subject">Question</label>
-                <textarea id="subject" name="subject" placeholder="Write your question for the teacher..."
-                    style="height:200px"></textarea>
-
-                <div class="as_knapper"><input type="photo" value="Choose Photo">
-
-                    <input type="submit" value="Add Photo">
-
-                    <input id="sub_ques" type="submitq" value="Submit Question">
-                </div>
-
-            </form>
         </div>
 
 
+        <div class="as_storflex">
+
+            <div class="opslag">
+
+                <div class="as_laererprofil">
+                    <img src="img/as_laererpb.png" alt="Teacher profile picture">
+                    <p>Teacher Name</p>
+                </div>
+
+
+                <p>Below are some of the ingredients we will need for next weeks class.
+                    See if you can find them, and cross them off the list! if somethings hard for you to find i’ll bring
+                    extras.
+                    You can see the recipe for class below as well, and ask questions to me, using the form</p>
+
+            </div>
+
+
+
+            <div class="as_container">
+
+
+                <div class="as_formtekst">
+                    <h2>Questions about the assignment?</h2>
+                    <p> Ask your teacher here </p>
+                </div>
+
+                <form action="action_page.php">
+
+                    <div class="as_formflex">
+
+                        <label id="name" for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+
+
+
+                        <label id="grade" for="grade">Grade</label>
+                        <select id="grade" name="grade">
+                            <option value="7.a">7.a</option>
+                            <option value="7.b">7.b</option>
+                            <option value="8.a">8.a</option>
+                            <option value="8.b">8.b</option>
+                            <option value="9.a">9.a</option>
+                            <option value="9.b">9.b</option>
+                        </select>
+
+
+                    </div>
+
+
+
+                    <label for="subject">Question</label>
+                    <textarea id="subject" name="subject" placeholder="Write your question for the teacher..."
+                        style="height:200px"></textarea>
+
+                    <div class="as_knapper"><input type="photo" value="Choose Photo">
+
+                        <input type="submit" value="Add Photo">
+
+                        <input id="sub_ques" type="submitq" value="Submit Question">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="materiale_baggrund">
+
+            <div class="h1_materialeliste">
+                <h1>Materials for your class</h1>
+                <p>These are the materials you need for your class. Click them off when you've found them! </p>
+            </div>
+
+            <div class="materialeliste">
+
+                <div class="materialekort">
+                    <a href="singleview.html"> <img class="materiale_img" src="img/as_tang.webp" alt="">
+                        <h3>Bladder Forceps</h3>
+                        <p>Beach </p>
+                        <p>March, April, May, June</p>
+                    </a>
+                    <div class="as_checkbutton">
+                        <p>Found it!</p>
+                    </div>
+                </div>
+
+                <div class="materialekort">
+                    <a href="singleview.html"> <img class="materiale_img" src="img/as_ramslog.webp" alt="">
+                        <h3>Wild Garlic</h3>
+                        <p>Deciduous forest, city, fence </p>
+                        <p>March, April, May, June</p>
+                    </a>
+                    <div class="as_checkbutton">
+                        <p>Found it!</p>
+                    </div>
+                </div>
+
+                <div class="materialekort">
+                    <a href="singleview.html"> <img class="materiale_img" src="img/as_salturt.webp" alt="">
+                        <h3>Salty Herb, Common</h3>
+                        <p>Beach meadow, marsh </p>
+                        <p>June, July, August, September</p>
+                    </a>
+                    <div class="as_checkbutton">
+                        <p>Found it!</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <<<<<<< HEAD <div class="opskrifter">
+
+            <div class="opskrifter_intro">
+                <h1>Recipes for your class</h1>
+                <p>Below you can see the recipe/recipes your teacher is planning for you to do in class</p>
+            </div>
+            <div class="recipecard">
+                <a href="">
+                    <img class="opskrift_img" src="img/as_pasta.webp" alt="Photo of ripe fruit cake">
+                    <p class="opskrift_overskrift">Pasta with seaweed and herbs</p>
+                    <p>Estimated time: 35 min.</p>
+                    <p>Servings: 4 persons </p>
+                    <p>Level: Easy</p>
+                </a>
+            </div>
+
+
+
+
+            </div>
+
+            =======
 
 
     </main>
 
     <script src="js/menu.js"></script>
 </body>
+<footer>
+    <div class="grid_footer">
+
+        <div>
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Tlf: +45 26 35 00 17</li>
+                <li>Mail: mm@madfeed.co</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Links</h2>
+            <ul>
+                <li><a class="link_1" href="https://vildmad.dk/dk" target="_blank">Vild Mad </a></li>
+                <li><a class="link" href="https://vildmad.dk/dk/undervisning" target="_blank">Vild Mad
+                        undervisning </a></li>
+
+            </ul>
+        </div>
+        <div>
+            <h2>Sociale Medier</h2>
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/vildmaddk/" target="_blank">
+                        <img class="instagram" src="img/insta.webp" alt="instagram">
+                    </a> </li>
+
+                <li><a href="https://www.facebook.com/vildmaddk" target="_blank">
+                        <img class="facebook" src="img/fb.webp" alt="facebook">
+                    </a> </li>
+
+            </ul>
+        </div>
+    </div>
+    >>>>>>> 40e7c69ad65b06d535bc2992794908ca10138824
+
+</footer>
 
 </html>

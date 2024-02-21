@@ -1,14 +1,17 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html {
+body {
   background-color: #e2d2ba;
 }
 h1 {
   font-size: 3rem;
   top: 27%;
   margin-bottom: 4%;
+  margin-top: 3%;
   text-align: center;
 }
 h2 {
@@ -23,7 +26,7 @@ p {
   margin-right: 1rem;
 }
 .forside_knap1 {
-  width: 112%;
+  width: 110%;
   height: auto;
   margin-left: -6%;
 }
@@ -32,9 +35,15 @@ p {
   margin-left: 25%;
 }
 
+.forside_knap3,
+.forside_knap2 {
+  padding: 10px;
+}
+
 img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .forside_knapper {
@@ -54,12 +63,6 @@ img {
     font-size: 4.5rem;
   }
 
-  .forside_baggrund {
-    background-color: #e2d2ba;
-    margin-right: 4%;
-    margin-left: 4%;
-  }
-
   .forside_venner {
     width: 65%;
     margin-left: 20%;
@@ -68,6 +71,29 @@ img {
   .forside_p {
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  /***Bevægelse***/
+  .forside_knap1,
+  .forside_knap2,
+  .forside_knap3 {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .knap {
+    transition: transform 0.6s ease-out;
+  }
+
+  .forside_knap1 :hover .knap {
+    transform: translate(5px, 5px);
+  }
+  .forside_knap2 :hover .knap {
+    transform: translate(5px, 5px);
+  }
+
+  .forside_knap3 :hover .knap {
+    transform: translate(5px, 5px);
   }
 }
 
@@ -79,6 +105,15 @@ footer {
   margin-top: 4%;
   text-align: center;
   padding-bottom: 2rem;
+}
+
+.instagram,
+.facebook {
+  width: 15%;
+}
+
+.socials {
+  margin-left: 45%;
 }
 
 .grid_footer {
@@ -101,10 +136,11 @@ footer {
 ul {
   list-style-type: none;
   font-family: orienta;
+  margin-top: 1rem;
 }
 
 .link_1 {
-  margin-left: -6%;
+  margin-left: -1%;
 }
 
 .link_1,
