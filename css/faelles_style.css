@@ -40,3 +40,56 @@ a {
   font-weight: normal;
   font-size: normal;
 }
+
+/************* footer ************/
+
+footer {
+  background-color: #b49c83;
+  padding-top: 2.5rem;
+  margin-top: 4%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.instagram,
+.facebook {
+  width: 15%;
+}
+
+.socials {
+  margin-left: 45%;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.grid_footer h2 {
+  font-family: orienta;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+ul {
+  list-style-type: none;
+  font-family: orienta;
+  margin-top: 1rem;
+}
+
+.link_1 {
+  margin-left: -1%;
+}
+
+.link_1,
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: orienta;
+}
