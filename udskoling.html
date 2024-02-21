@@ -55,47 +55,24 @@
             <div class="u-card-container"></div>
         </section>
         <section>
+
             <div id="u-menu-places">
                 <h3 class="big-text">Where are you gathering?</h3>
-                <div class=" flex-row flex-align-center">
+                <!-- <div class=" flex-row flex-align-center"> -->
 
-                    <div id="u-button-container" class="flex-row querry-grid">
-                        <a href="">
-                            <div id="near-water" class="button-e flex-row flex-align-center">
-                                <h3>Near water</h3>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div id="open-grass" class="button-e flex-row flex-align-center">
-                                <h3>Open grass</h3>
-                            </div>
-                        </a>
-                        <div>
-                            <div id="Forest" class="button-e flex-row flex-align-center">
-                                <h3>Forest</h3>
-                            </div>
-                        </div>
-                        <a href="">
-                            <div id="city" class="button-e flex-row flex-align-center">
-                                <h3>City</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="u-fold-out">
-                    <a id="confiderous" class="hide" href="">
-                        <div class="button-e fold-out-class flex-row flex-align-center">
-                            <p>Coniferous forest</p>
-                        </div>
-                    </a>
-                    <a id="deciduous" class="hide" href="">
-                        <div class="button-e fold-out-class flex-row flex-align-center">
-                            <p>Deciduous forest</p>
-                        </div>
-                    </a>
+                <div id="u-button-container" class="querry-grid">
+                    <button id="near-water" class="button" onclick="fadeOut('near-water')">Near water</button>
+                    <button id="open-grass" class="button" onclick="fadeOut('open-grass')">Open grass</button>
+                    <button id="Forest" class="button" onclick="fadeOut('Forest')">Forest</button>
+                    <button id="city" class="button" onclick="fadeOut('city')">City</button>
+
+                    <a href="noleskov.html"><button id="confiderous" class="button hidden">Confiderous
+                            forest</button></a>
+                    <button id="deciduous" class="button hidden">Deciduous forest</button>
+
+                    <!-- </div> -->
                 </div>
             </div>
-
         </section>
     </main>
     <footer>

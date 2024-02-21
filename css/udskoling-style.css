@@ -74,24 +74,36 @@ a {
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
+  font-family: spicyrice;
 }
 #open-grass {
   background-color: #859253;
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
+  font-family: spicyrice;
 }
 #Forest {
   background-color: #504c22;
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
+  font-family: spicyrice;
 }
 #city {
   background-color: #af3817;
   color: #fffee8;
   text-decoration: none;
   font-size: 1.7rem;
+  transition: 1s;
+  letter-spacing: 1px;
+  font-family: spicyrice;
 }
 .big-text {
   font-size: 3.2rem;
@@ -99,7 +111,20 @@ a {
   padding-top: 50px;
   letter-spacing: 2px;
 }
-
+/* styling af hover på de enkelte knapper */
+#near-water:hover,
+#open-grass:hover,
+#city:hover {
+  scale: 99%;
+  transition: 1s;
+  color: rgb(221, 223, 208);
+  background-color: gray;
+}
+#Forest:hover {
+  scale: 110%;
+  transition: 1s;
+  color: rgb(224, 249, 81);
+}
 #u-button-container {
   background-color: #fffee8b8;
   color: #fffee8b8;
@@ -109,60 +134,69 @@ a {
   margin-top: 50px;
   margin-bottom: 0px;
 }
-.button-e {
-  padding: 60px;
-  border: 20px;
-  border-radius: 100%;
-  margin: 30px;
-  height: 200px;
-  width: 200px;
+.big-text {
+  font-size: 3.2rem;
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  letter-spacing: 2px;
 }
 /* .u-fold-out {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+  
+    z-index: 100;
+  
+    position: relative;
+    left: 33%;
+  } */
 
-  z-index: 100;
-
-  position: relative;
-  left: 33%;
-} */
-.u-fold-out {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
 /* .u-fold-out {
-  position: absolute;
-} */
+    position: absolute;
+  } */
 .hide {
+  transition: 2s;
   display: none;
 }
-.fold-out-class {
-  display: flex;
-  flex-direction: row;
-  align-self: flex-end;
-  height: 150px;
-  width: 150px;
+.transition {
 }
-#confiderous .button-e {
+
+.scale-down {
+  scale: 0.2%;
+  transition: 2s;
+}
+#confiderous {
   background-color: #859253;
   color: #fffee8;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-family: spicyrice;
 }
-#deciduous .button-e {
+#deciduous {
   background-color: #f8a01f;
   color: #fffee8;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-family: spicyrice;
+}
+
+#confiderous:hover {
+  scale: 110%;
+  transition: 1s;
+  color: rgb(224, 249, 81);
+}
+#deciduous:hover {
+  scale: 99%;
+  transition: 1s;
+  color: rgb(221, 223, 208);
+  background-color: gray;
 }
 /* .fold-out-class {
-  position: absolute;
-
-  height: 150px;
-  width: 100px;
-} */
+    position: absolute;
+  
+    height: 150px;
+    width: 100px;
+  } */
 .banner-container {
   width: 100%;
   height: 500px;
@@ -176,14 +210,27 @@ a {
   align-items: center;
 }
 .banner-text p {
-  font-family: orienta;
+  font-family: jacques;
   text-align: center;
   font-size: 3rem;
 }
 div .banner-text-small {
   font-size: 2rem;
 }
+.button {
+  height: 200px;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 10px;
 
+  border: none;
+  border-radius: 100%;
+  transition: opacity 0.2s;
+}
+
+.hidden {
+  display: none;
+}
 @media (max-width: 900px) {
   /* environment button responsive design */
   .querry-grid {
@@ -192,15 +239,7 @@ div .banner-text-small {
     grid-template-rows: 1fr 1fr;
     align-items: center;
   }
-  .button-e {
-    background-color: #cddeb3;
-    padding: 50px;
-    border: 20px;
-    border-radius: 100%;
-    margin: 30px;
-    height: 150px;
-    width: 150px;
-  }
+
   #u-button-container {
     background-color: #fffee8b8;
     color: #fffee8b8;
