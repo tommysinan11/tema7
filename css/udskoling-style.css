@@ -38,9 +38,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-body {
-  height: 500vh;
-}
+
 #card-view {
   max-width: 1300px;
   margin: auto;
