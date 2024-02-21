@@ -194,6 +194,10 @@ main {
   border: 2px solid white;
 }
 
+.opskrift_overskrift {
+  font-family: spicyrice;
+}
+
 .sv_button {
   margin: auto;
   background-color: #ffffeb;
