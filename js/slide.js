@@ -22,10 +22,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const plate = document.querySelector("#cardtemp").content;
 
     const kopy = plate.cloneNode(true);
+    kopy.querySelector(".name").textContent=product.name;
+    kopy.querySelector(".catego").textContent=product.categories;
+    kopy.querySelector(".season").textContent=product.seasons;
+    kopy.querySelector(".click").href=product.recipe;
+    kopy.querySelector(".photo").src = product.photo;
 
     document.querySelector(".slider").appendChild(kopy);
-    console.log("i",i);
-    console.log("arr",arr);
+    
     if (i >= arr.length - 1) {
         console.log("last");
         items = document.querySelectorAll(".slider .item ");
