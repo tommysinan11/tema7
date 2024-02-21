@@ -10,7 +10,58 @@ img {
   display: block;
 }
 
+body {
+  background-color: #e1d5c5;
+}
 /* introboks */
+
+.as_intro {
+  width: 100%;
+  text-align: center;
+  background-color: #fffeeb;
+  height: 300px;
+  color: #3968a1;
+}
+
+.as_intro h1 {
+  padding-top: 70px;
+}
+
+.as_intro p {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* opslag */
+
+.opslag {
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #4c4238;
+  box-shadow: 5px 5px 5px #877e72;
+}
+
+.as_laererprofil {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.as_laererprofil p {
+  padding: 40px;
+  color: #637028;
+}
+
+.as_laererprofil img {
+  max-width: 90px;
+  border: 1px solid #4c4238;
+  border-radius: 60%;
+}
 
 /*tekst over form */
 .as_formtekst {
@@ -24,9 +75,9 @@ select,
 textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 2px solid #637028; /* Gray border */
+  border: 2px solid #4c4238; /* Gray border */
   background-color: #ffffeb;
-  border-radius: 4px; /* Rounded borders */
+  border-radius: 20px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
@@ -37,8 +88,8 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
-  background-color: #ffffeb;
-  color: #637028;
+  background-color: #637028;
+  color: #ffffeb;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -50,9 +101,9 @@ input[type="submit"] {
 /* style photo button */
 input[type="photo"] {
   background-color: #ffffeb;
-  color: #637028;
+  color: #4c4238;
   padding: 12px 20px;
-  border: 2px solid #637028;
+  border: 2px solid #4c4238;
   border-radius: 4px;
   cursor: pointer;
   font-family: jacques;
@@ -70,8 +121,8 @@ input[type="submitq"]:hover {
 }
 
 input[type="submitq"] {
-  background-color: #ffffeb;
-  color: #637028;
+  background-color: #637028;
+  color: #ffffeb;
   padding: 18px 20px;
   text-align: center;
   border: none;
@@ -87,23 +138,172 @@ input[type="submitq"] {
 /* Add a background color and some padding around the form */
 .as_container {
   border-radius: 5px;
-  background-color: #e1d5c5;
+  background-color: white;
   padding: 30px;
   width: 500px;
   margin: auto;
   font-family: orienta;
-  color: #637028;
+  color: #4c4238;
   margin-top: 40px;
   border-radius: 30px;
   box-shadow: 5px 5px 5px #877e72;
+  margin-bottom: 100px;
+}
+
+/* materiale liste */
+
+.h1_materialeliste {
+  text-align: center;
+  color: #3968a1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  font-size: 17px;
+}
+
+.materialeliste {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  margin: auto;
+  max-width: 1300px;
+}
+
+@media (max-width: 900px) {
+  .materialeliste {
+    width: 380px;
+    margin: auto;
+  }
+}
+
+.materialekort {
+  background-color: #637028;
+  width: 300px;
+  height: 500px;
+  margin: 40px;
+  border-radius: 20px;
+}
+
+.materialekort img {
+  width: 250px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.materialekort p {
+  margin: 10px;
+  margin-left: 30px;
+  justify-content: center;
+  color: #ffffeb;
+}
+.materialekort h3 {
+  color: #ffffeb;
+  text-align: center;
+  padding: 20px;
+}
+
+.materialekort a {
+  text-decoration: none;
+}
+
+.materiale_baggrund {
+  background-color: #fffeeb;
+  margin-bottom: 60px;
+}
+
+/* fundet knap */
+.as_checkbutton {
+  width: 200px;
+  background-color: white;
+  height: 50px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.as_checkbutton p {
+  color: #f8a01f;
+  font-family: spicyrice;
+  text-align: center;
+  margin-left: 0;
+}
+
+.as_checkbutton:hover {
+  background-color: #ddf962;
+}
+
+/* opskrift */
+.opskrifter {
+  display: block;
+  text-align: center;
+}
+
+.opskrifter_intro {
+  color: #3968a1;
+}
+
+.recipecard {
+  background-color: #b33636;
+  max-width: 350px;
+  height: 400px;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-radius: 30px;
+  color: #ffffeb;
+  box-shadow: 5px 5px 5px #877e72;
+}
+
+.recipecard img {
+  max-width: 280px;
+  margin: auto;
+  padding: 10px;
+}
+
+.recipecard a {
+  color: #ffffeb;
+  text-decoration: none;
+}
+
+.recipecard p {
+  padding-top: 10px;
+}
+
+.recipecard:hover {
+  box-shadow: none;
+  border: 2px solid white;
+}
+
+.opskrift_overskrift {
+  font-family: spicyrice;
 }
 
 @media (min-width: 900px) {
   .as_container {
-    width: 900px;
+    width: 700px;
   }
 
+  .as_formflex {
+    display: flex;
+  }
+
+  #grade,
+  #name {
+    padding: 20px;
+  }
   .as_knapper {
     width: 500px;
+  }
+
+  /*sæt opslag og form ved siden af hinanden */
+  .as_storflex {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  .opslag {
+    height: 400px;
   }
 }
