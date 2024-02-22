@@ -34,6 +34,29 @@
   text-decoration: none;
   color: white;
 }
+.celholder{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.cela{
+  text-decoration: none;
+  font-family: spicyrice;
+  font-weight: normal;
+  font-size: normal;
+  font-size: 24px;
+  margin: auto;
+  color: white;
+  background: linear-gradient(0deg, rgba(76, 66, 56, 1) 0%, rgba(129, 85, 42, 1) 0%, rgba(161, 131, 101, 0) 100%);
+  padding: 10px;
+  border-radius: 10px;
+}
+.cela:hover{
+  scale: 1.15;
+}
+
+
+
 .deck {
   background: rgb(76, 66, 56);
   background: linear-gradient(25deg, rgba(76, 66, 56, 1) 0%, rgba(129, 85, 42, 1) 35%, rgba(161, 131, 101, 1) 100%);

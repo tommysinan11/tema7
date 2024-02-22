@@ -41,14 +41,5 @@ function showproduct(product){
 }
 
 
-// {
-//     "id": 1,
-//     "created_at": "2024-02-13T21:21:24.522074+00:00",
-//     "name": "Chanterelle",
-//     "categories": "Mushrooms",
-//     "image": "https://vildmadv2.vps.webdock.io/application/files/8916/2436/4262/Kantarel_ravarekort_app.png",
-//     "recipe": "https://vildmad.dk/dk/opskrifter/kantareller-med-lardos",
-//     "seasons": "Winter",
-//     "Find": null
-//   }
+
     
