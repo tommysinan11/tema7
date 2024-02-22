@@ -1,125 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-body{
-    background-color: #859253;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.topholder1{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 10%;
-    font-size: 12px;
-    padding: 40px;
-    display: none;
-    
-    
+body {
+  background-color: #859253;
 }
-.top{
-    background-color: #859253;
+.topholder1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10%;
+  font-size: 12px;
+  padding: 40px;
+  display: none;
+}
+.top {
+  background-color: #859253;
 }
 
-.astyle{
-    color: white;
-    list-style: none;
-    text-decoration: none;
+.astyle {
+  color: white;
+  list-style: none;
+  text-decoration: none;
 }
-.astyle:hover{
-    color: yellow;
-}
-
-
-
-
-.topholder2{
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    margin-top: -12%;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 1rem;
-    
-}
-.topholder2 p{
-    width: 95%;
-    font-size: 14px;
-    margin-left: 20px;
-}
-.topholder{
-   background-color: #859253;
-   
-}
-.topholder3
-{
-    position: absolute;
-    top: 650px;;
-}
-.imgholder{
-    background-image: url(/img/naaleskovcover.webp);
-    height: 700px;
-    width: 100%;
-    background-position: center;
-    padding: 20px;
-    text-align: center;
-    color: white;
-
-}
-.imgtext{
-    padding-top: 500px;
+.astyle:hover {
+  color: yellow;
 }
 
+.topholder2 {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: -12%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 1rem;
+}
+.topholder2 p {
+  width: 95%;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.topholder {
+  background-color: #859253;
+}
+.topholder3 {
+  position: absolute;
+  top: 650px;
+}
+.imgholder {
+  background-image: url(/img/naaleskovcover.webp);
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.imgtext {
+  padding-top: 500px;
+}
 
-.text{
-    background-color: #859253;
-    font-size: 24px;
-    padding: 20px;
-    text-align: center;
-
-   
+.text {
+  background-color: #859253;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+}
+.decklink {
+  color: white;
 }
 
 /* menu til mig */
-.celholder{
-    width: 95%;
-    margin-left: 2.5%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: space-around;
-    background-color:#817D7D ;
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 100px;
+.celholder {
+  width: 95%;
+  margin-left: 2.5%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-around;
+  background-color: #817d7d;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 100px;
 }
-.celholder h2{
-    font-size: 16px;
-    margin-left:20px ;
+.celholder h2 {
+  font-size: 16px;
+  margin-left: 20px;
 }
-.cel{
-    display: flex;
-    gap: 1rem;
-    margin-left:20px;
+.cel {
+  display: flex;
+  gap: 1rem;
+  margin-left: 20px;
 }
-.celheadline{
-    display: none;
+.celheadline {
+  display: none;
 }
 
 @media screen and (min-width: 800px) {
-
-.celheadline{
+  .celheadline {
     display: block;
-    padding: 40px;
-    margin-left: 890px;
-    width: 30%;
+    padding: 60px;
+    margin: auto;
     text-align: center;
-}
-.celholder {
+    color: white;
+    max-width: 700px;
+  }
+  .celholder {
     width: 40%;
     margin-left: 32%;
     display: flex;
@@ -127,7 +118,7 @@ body{
     flex-direction: row;
     gap: 1rem;
     justify-content: space-around;
-    background-color: #817D7D;
+    background-color: #817d7d;
     border-radius: 20px;
     padding: 30px;
     margin-bottom: 150px;
@@ -137,8 +128,8 @@ body{
     margin-left: 20px;
   }
 
-    .topholder1{
-        display: flex;
+  .topholder1 {
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
@@ -148,73 +139,56 @@ body{
     display: none;
     margin-left: 200px;
     display: block;
-        
-        
-    }
-    .topholder2 p{
-        width: 95%;
-        font-size: 14px;
-        margin-left: 20px;
-        display: none;
-    }
-    .topholder2{
-        display: flex;
-        justify-content: center;
-        font-size: 39px;
-        margin-top: 0;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-        gap: 1rem;
-        margin-bottom: 150px;
-        
-    }
-    .top {
-        background-color: rgba(76,66,56,0.8);
-        padding-top: 30px;
-        width: 70%;
-        margin-left: 15%;
-      }
- 
- 
-      .text {
-        background-color: rgb(86, 81, 61);
-        text-align: center;
-        width: 65%;
-        margin-left: 334px;
-        font-size: 60px;
-        padding: 100px;
-        color: white;
-      }
-      .imgholder{
-        background-image: url(/img/naaleskovcover.webp);
-        height: 800px;
-        width: 100%;
-        background-position: center;
-        padding: 20px;
-        text-align: center;
-        color: white;
-        font-size: 48px;
-        
-    }
-    .imgtext{
-        padding-top: 300px;
-    }
-    .imgtext1{
-        font-size: 30px;
-        width: 70%;
-        text-align: center;
-        margin-left: 15%;
-    }
-      
-      
-    
-      }
+  }
+  .topholder2 p {
+    width: 95%;
+    font-size: 14px;
+    margin-left: 20px;
+    display: none;
+  }
+  .topholder2 {
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 1rem;
+    margin-bottom: 150px;
+  }
+  .top {
+    background-color: rgba(76, 66, 56, 0.8);
+    padding-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+  }
 
-
-
-
-
-
-  
-
+  .text {
+    background-color: rgb(86, 81, 61);
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    padding: 100px;
+    color: white;
+  }
+  .imgholder {
+    background-image: url(/img/naaleskovcover.webp);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+  }
+  .imgtext {
+    padding-top: 300px;
+  }
+  .imgtext1 {
+    font-size: 30px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+  }
+}

@@ -1,63 +1,115 @@
+.photo {
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 10px;
+}
 
-.photo{
-    width: 95%;
-    margin-left:2.5% ;
-    border-radius: 10px;
+.datacon {
+  display: flex;
+  flex-direction: column;
+  background-color: #504c22;
+  gap: 0.7rem;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+}
+.name {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+  background: rgb(76, 66, 56);
+  background: linear-gradient(0deg, rgba(76, 66, 56, 1) 0%, rgba(129, 85, 42, 1) 0%, rgba(161, 131, 101, 0) 100%);
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 10px;
+}
+.catego {
+  font-size: 16px;
+}
+.click {
+  text-decoration: none;
+  color: white;
+}
+.celholder{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.cela{
+  text-decoration: none;
+  font-family: spicyrice;
+  font-weight: normal;
+  font-size: normal;
+  font-size: 24px;
+  margin: auto;
+  color: white;
+  background: linear-gradient(0deg, rgba(76, 66, 56, 1) 0%, rgba(129, 85, 42, 1) 0%, rgba(161, 131, 101, 0) 100%);
+  padding: 10px;
+  border-radius: 10px;
+}
+.cela:hover{
+  scale: 1.15;
 }
 
 
-    
 
-
-.datacon{
+.deck {
+  background: rgb(76, 66, 56);
+  background: linear-gradient(25deg, rgba(76, 66, 56, 1) 0%, rgba(129, 85, 42, 1) 35%, rgba(161, 131, 101, 1) 100%);
+  padding: 20px;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 3px black solid;
+  box-shadow: 1px 1px 10px 4px #2b2b2b inset;
+  border-radius: 10px;
+  margin-left: 3px;
+}
+.deckcover {
+  background: rgb(76, 66, 56);
+  background: linear-gradient(25deg, rgba(76, 66, 56, 1) 0%, rgba(129, 85, 42, 1) 35%, rgba(161, 131, 101, 1) 100%);
+  padding: 5px;
+  border-radius: 10px;
+}
+.datacon1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #515151;
+  gap: 0.7rem;
+  margin-bottom: 20px;
+  padding: 9px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  width: 250px;
+  box-shadow: 7px 7px 20px 10px #000;
+}
+@media screen and (min-width: 800px) {
+  .dataholder {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    /* width: 300px; */
+    /* margin-left: 875px; */
+    gap: 3rem;
+  }
+  .datacon {
     display: flex;
     flex-direction: column;
-    background-color: #504C22;
+    background-color: #515151;
     gap: 0.7rem;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 9px;
+    padding-bottom: 40px;
     border-radius: 20px;
     color: white;
     align-items: center;
-    width: 70%;
-    margin-left: 15%;
-    
-}
-.name{
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 10px;
-    background: rgb(76,66,56);
-    background: linear-gradient(0deg, rgba(76,66,56,1) 0%, rgba(129,85,42,1) 0%, rgba(161,131,101,0) 100%); 
-    width: 95%;
-    margin-left: 2.5%; ;
-    border-radius: 10px;
-}
-.catego{
-    font-size: 16px;
-}
-.click{
-    text-decoration: none;
-    color: white;
-}
-.deck {
-    background: rgb(76,66,56);
-background: linear-gradient(25deg, rgba(76,66,56,1) 0%, rgba(129,85,42,1) 35%, rgba(161,131,101,1) 100%);
-    padding: 20px;
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    border: 3px black solid;
-    box-shadow: 1px 1px 10px 4px #2b2b2b inset;
-    border-radius: 10px;
-    margin-left: 3px;
-  }
-  .deckcover {
-    background: rgb(76,66,56);
-background: linear-gradient(25deg, rgba(76,66,56,1) 0%, rgba(129,85,42,1) 35%, rgba(161,131,101,1) 100%);
-    padding: 5px;
-    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 7px 7px 20px 10px #000;
   }
   .datacon1 {
     display: flex;
@@ -69,43 +121,7 @@ background: linear-gradient(25deg, rgba(76,66,56,1) 0%, rgba(129,85,42,1) 35%, r
     border-radius: 20px;
     color: white;
     align-items: center;
-    width: 250px;
+    width: 300px;
     box-shadow: 7px 7px 20px 10px #000;
   }
-@media screen and (min-width: 800px){
-    .dataholder{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        width: 300px;
-        margin-left: 875px;
-        gap: 3rem;
-        
-    }
-    .datacon {
-        display: flex;
-        flex-direction: column;
-        background-color: #515151;
-        gap: 0.7rem;
-        margin-bottom: 20px;
-        padding: 9px;
-        border-radius: 20px;
-        color: white;
-        align-items: center;
-        width: 300px;
-        box-shadow: 7px 7px 20px 10px #000;
-      }
-      .datacon1 {
-        display: flex;
-        flex-direction: column;
-        background-color: #515151;
-        gap: 0.7rem;
-        margin-bottom: 20px;
-        padding: 9px;
-        border-radius: 20px;
-        color: white;
-        align-items: center;
-        width: 300px;
-        box-shadow: 7px 7px 20px 10px #000;
-      }
-      
 }

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/faelles_style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/udskoling-style.css">
+    <link rel="stylesheet" href="css/jscard.css">
+    <link rel="stylesheet" href="css/bundkort.css">
 
 </head>
 
@@ -56,6 +58,35 @@
             <h3>What to gather in february:</h3>
             <div class="u-card-container"></div>
         </section>
+        <article id="warp">
+
+            <div class="slider">
+
+
+                <template id="cardtemp">
+                    <div class="item">
+                        <div class="datacon1">
+                            <div class="deckcover">
+                                <h1 class="name">name</h1>
+                                <img class="photo" src="" alt="">
+                                <div class="deck">
+                                    <h2 class="catego"></h2>
+                                    <p class="season"></p>
+                                    <a class="click" href="">Recipe</a>
+                                    <a class="decklink" href="singleview.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </template>
+                <button id="next">></button>
+                <button id="prev">
+                    < </button>
+
+            </div>
+        </article>
         <section>
 
             <div id="u-menu-places">
@@ -116,6 +147,7 @@
 
     <script src="js/menu.js"></script>
     <script src="js/udskoling-js.js"></script>
+    <script src="js/slide.js"></script>
 </body>
 
 </html>
